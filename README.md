@@ -4,9 +4,9 @@
 
 ##  Réalisé par
 
-| Nom | Identifiant | mail |
+| Nom | numéro d’étudiant | mail |
 |-----|-------------|-------------|
-| **BENCHEKROUN Soufiane** | @SfianBEN | soufiane.benchekroun@uphf.fr |
+| **BENCHEKROUN Soufiane** | 22304603 | soufiane.benchekroun@uphf.fr |
 | **LKOUEN Salah Eddine** | @ | @uphf.fr |
 
 Encadré par : **Mr Hervé Tondeur**
