@@ -9,7 +9,7 @@ rm -f srv-translate/target/srv-translate.log
 rm -f cons-db-srv/target/client-cons-db.log
 
 echo "Arret de Docker"
-docker compose down
+docker-compose down
 
 echo "Arret de PostgreSQL"
 cd ..
