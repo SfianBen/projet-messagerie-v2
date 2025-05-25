@@ -7,7 +7,7 @@
 | Nom | numéro d’étudiant | mail |
 |-----|-------------|-------------|
 | **BENCHEKROUN Soufiane** | 22304603 | soufiane.benchekroun@uphf.fr |
-| **LKOUEN Salah Eddine** | @ | @uphf.fr |
+| **LKOUEN Salah Eddine** | 22303080 | salaheddine.lkouen@uphf.fr |
 
 Encadré par : **Mr Hervé Tondeur**
 
