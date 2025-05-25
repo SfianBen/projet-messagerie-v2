@@ -3,7 +3,7 @@
 echo "demarrage des conteneur Docker"
 cd "$(dirname "$0")"
 
-docker compose up -d
+docker-compose up -d
 sleep 5
 
 echo "lancement du service PostgreSQL"
