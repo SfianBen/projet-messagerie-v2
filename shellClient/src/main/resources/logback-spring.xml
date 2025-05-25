@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<property name="LOGS" value="./logs"/>
+	<appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>%d{ISO8601} - %msg%n</Pattern>
+		</layout>
+	</appender>
+	<appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOGS}/spring-boot-logger.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOGS}/archived/spring-boot-logger-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<!--<Pattern>%d %p %C{1} [%t] %m%n</Pattern>-->
+                        <Pattern>%d %m%n</Pattern>
+		</encoder>
+	</appender>
+	<root level="error">
+		<appender-ref ref="RollingFile"/>
+		<appender-ref ref="Console"/>
+	</root>
+	<logger name="com.example" level="trace" additivity="false">
+		<appender-ref ref="RollingFile"/>
+		<appender-ref ref="Console"/>
+	</logger>
+</configuration>

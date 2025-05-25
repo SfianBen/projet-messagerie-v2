@@ -1,0 +1,14 @@
+services:
+    pg-isiimg:
+      container_name: pg-docker
+      image: postgres:latest
+      hostname: pg-docker
+      restart: always
+      ports:
+        - "5432:5432"
+      environment:
+        - POSTGRES_PASSWORD=admin
+        - POSTGRES_USER=postgres
+        - POSTGRES_DB=messagerie
+      volumes:
+        - ./pgdata:/var/lib/postgresql/data
