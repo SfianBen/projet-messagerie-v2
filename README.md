@@ -119,5 +119,5 @@ Voici le schéma global de l’architecture de notre projet de messagerie Kafka 
 
 Voici une démonstration complète du fonctionnement de notre projet de messagerie Kafka, incluant le lancement des services, les interactions entre clients, la traduction automatique, et l’archivage dans PostgreSQL :
 
-[Cliquez ici pour voir la démo sur YouTube]([https://www.youtube.com/watch?v=TON_ID](https://www.youtube.com/watch?v=PGfgsOkM-AA&t=27s))
+ [Cliquez ici pour voir la démo sur YouTube](https://www.youtube.com/watch?v=PGfgsOkM-AA&t=27s)
 
