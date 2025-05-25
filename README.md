@@ -113,9 +113,8 @@ Voici le schéma global de l’architecture de notre projet de messagerie Kafka 
   - `message` : messages envoyés et traduits
   - `client_connecte` : clients actifs
 
-## Démo 
 
-##  Démonstration vidéo
+##  Demo vidéo
 
 Voici une démonstration complète du fonctionnement de notre projet de messagerie Kafka, incluant le lancement des services, les interactions entre clients, la traduction automatique, et l’archivage dans PostgreSQL :
 
