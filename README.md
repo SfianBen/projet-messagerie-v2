@@ -41,7 +41,7 @@ Créer un système de messagerie distribuée basé sur Kafka où :
 
 ```bash
 cd scripts
-./run_services.sh
+sudo ./run_services.sh
 ```
 Cela lance automatiquement :
 
@@ -57,8 +57,8 @@ Cela lance automatiquement :
 
 ### 2. Lancer les clients CLI
 ```bash
-./5a_run_cliA.sh
-./5b_run_cliB.sh
+sudo ./5a_run_cliA.sh
+sudo ./5b_run_cliB.sh
 ```
 ### 3. Commandes disponibles
 
